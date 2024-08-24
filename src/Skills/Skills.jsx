@@ -61,15 +61,15 @@ function Skills() {
                     <Grid item xs={12} sm={6} md={4}>
                         <SkillsCard>
                             <IconBox>
+                                <Typography variant='h6' component='h2' gutterBottom>
+                                    Frontend
+                                </Typography>
                                 <FaHtml5 color="#E34F26" />
                                 <FaCss3Alt color="#1572B6" />
                                 <FaJs color="#F7DF1E" />
                                 <FaReact color="#61DAFB" />
                             </IconBox>
                             <CardContent>
-                            <Typography variant='h6' component='h2' gutterBottom>
-                                    Frontend
-                                </Typography>
                                 <Typography variant='body2'>
                                  HTML, CSS, JavaScript, ReactJS
                                 </Typography>
@@ -80,15 +80,15 @@ function Skills() {
                     <Grid item xs={12} sm={6} md={4}>
                         <SkillsCard>
                             <IconBox>
+                             <Typography variant='h6' component='h2' gutterBottom>
+                                Backend
+                             </Typography>
                                 <FaNodeJs color="#339933" />
                                 <SiExpress color="#000000" />
                                 <SiMongodb color="#47A248" />
                                 <SiMysql color="#336791" />
                             </IconBox>
                             <CardContent>
-                            <Typography variant='h6' component='h2' gutterBottom>
-                                Backend
-                            </Typography>
                                 <Typography variant='body2'>
                                     Node.js, Express, MongoDB, MySQL
                                 </Typography>
